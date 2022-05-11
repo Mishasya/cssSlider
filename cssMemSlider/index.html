@@ -10,7 +10,81 @@
 </head>
 <body>
   <header class="header">
-    <h1 class="title">Hello! This is css mem slider by Mishasya =)</h1>
+    <div class="container">
+      <h1 class="title">Hi! This is css mem slider by Mishasya =)</h1>
+    </div>
   </header>
+
+  <main>
+    <div class="container">
+      <div class="slider">
+        <input class="slider__radio" id="radio1" type="radio" name="radio" checked>
+        <input class="slider__radio" id="radio2" type="radio" name="radio">
+        <input class="slider__radio" id="radio3" type="radio" name="radio">
+        <input class="slider__radio" id="radio4" type="radio" name="radio">
+        <input class="slider__radio" id="radio5" type="radio" name="radio">
+
+        <div class="slider__inner">
+          <ul class="images-list">
+            <li class="images-list__item">
+              <picture>
+                <!-- <source srcset="assets/images/scarlett.webp"> -->
+                <img class="images-list__img" src="assets/images/fox.jpg" width="640" height="460" alt="Fox" loading="lazy">
+              </picture>
+            </li>
+            <li class="images-list__item">
+              <picture>
+                <!-- <source srcset="assets/images/scarlett.webp"> -->
+                <img class="images-list__img" src="assets/images/lions.jpg" width="640" height="460" alt="Lions" loading="lazy">
+              </picture>
+            </li>
+            
+            <li class="images-list__item">
+              <picture>
+                <!-- <source srcset="assets/images/scarlett.webp"> -->
+                <img class="images-list__img" src="assets/images/owl.jpg" width="640" height="460" alt="Owl" loading="lazy">
+              </picture>
+            </li>
+            <li class="images-list__item">
+              <picture>
+                <!-- <source srcset="assets/images/scarlett.webp"> -->
+                <img class="images-list__img" src="assets/images/snowLeopards.jpg" width="640" height="460" alt="Snow leopards" loading="lazy">
+              </picture>
+            </li>
+            <li class="images-list__item">
+              <picture>
+                <!-- <source srcset="assets/images/scarlett.webp"> -->
+                <img class="images-list__img" src="assets/images/wolves.jpg" width="640" height="460" alt="Wolves" loading="lazy">
+              </picture>
+            </li>
+          </ul>
+
+          <ul class="text-list">
+            <li class="text-list__item">
+              <p class="text-list__text slider__text1">oooo</p>
+            </li>
+            <li class="text-list__item">
+              <p class="text-list__text slider__text2">lllll</p>
+            </li>
+            <li class="text-list__item">
+              <p class="text-list__text slider__text3">bbbbbbb</p>
+            </li>
+            <li class="text-list__item">
+              <p class="text-list__text slider__text4">67675</p>
+            </li>
+            <li class="text-list__item">
+              <p class="text-list__text slider__text5">''''''</p>
+            </li>
+          </ul>
+
+          <label class="slider__label" for="radio1"></label>
+          <label class="slider__label" for="radio2"></label>
+          <label class="slider__label" for="radio3"></label>
+          <label class="slider__label" for="radio4"></label>
+          <label class="slider__label" for="radio5"></label>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
