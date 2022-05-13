@@ -126,8 +126,8 @@ button,
   height: 55%;
   border-radius: 50%;
   background-color: #082567;
-  border: 2px solid transparent;
-  box-shadow: -5px 0px 6px 1px rgb(0 0 0 / 30%);
+  border: 0.17em solid transparent;
+  box-shadow: -0.27em 0 0.3em 0.05em rgb(0 0 0 / 30%);
   transition: background-color ease-in-out 0.4s, border ease-in-out 0.4s, opacity ease-in-out 0.4s;
 }
 
@@ -297,7 +297,7 @@ button,
   }
 
   .images-list__img {
-    max-width: 288px;
+    max-width: 18em;
   }
 
   [id="radio1"]:checked ~ .slider__inner .images-list,
