@@ -234,3 +234,50 @@ button,
 [id="radio5"]:checked ~ .slider__inner .text-list {
   transform: translateX(-88em);
 }
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 100vw;
+  }
+
+  .slider__inner {
+    max-width: 25em;
+  }
+
+  .slider__descr {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .slider__label-wrapper {
+    margin-bottom: 1em;
+  }
+
+  .slider__text-wrapper {
+    margin: 0 auto;
+  }
+
+  .text-list__text {
+    text-align: center;
+  }
+
+  [id="radio1"]:checked ~ .slider__inner .images-list {
+    transform: translateX(0);
+  }
+  
+  [id="radio2"]:checked ~ .slider__inner .images-list {
+    transform: translateX(-25em);
+  }
+  
+  [id="radio3"]:checked ~ .slider__inner .images-list {
+    transform: translateX(-50em);
+  }
+  
+  [id="radio4"]:checked ~ .slider__inner .images-list {
+    transform: translateX(-75em);
+  }
+  
+  [id="radio5"]:checked ~ .slider__inner .images-list {
+    transform: translateX(-100em);
+  }
+}
