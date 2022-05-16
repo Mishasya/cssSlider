@@ -260,13 +260,8 @@ button,
     margin-bottom: 1em;
   }
 
-  .slider__text-wrapper {
-    margin: 0 auto;
-  }
-
   .text-list__text {
     font-size: 1em;
-    text-align: center;
   }
 
   [id="radio1"]:checked ~ .slider__inner .images-list {
